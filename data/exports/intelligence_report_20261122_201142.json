@@ -1,0 +1,101 @@
+{
+    "report_generated_at": "2026-11-22 20:11:42",
+    "datasets_summary": {
+        "github": {
+            "total_records": 10,
+            "columns": [
+                "repo_name",
+                "repo_url",
+                "description",
+                "stars",
+                "language",
+                "owner",
+                "last_updated",
+                "source"
+            ]
+        },
+        "news": {
+            "total_records": 32,
+            "columns": [
+                "title",
+                "summary",
+                "news_url",
+                "published_date",
+                "source",
+                "collected_at"
+            ]
+        },
+        "jobs": {
+            "total_records": 69,
+            "columns": [
+                "company",
+                "job_title",
+                "location",
+                "is_remote",
+                "job_url",
+                "job_type",
+                "tags",
+                "published_date",
+                "source",
+                "collected_at"
+            ]
+        },
+        "products": {
+            "total_records": 29,
+            "columns": [
+                "product_name",
+                "company",
+                "website",
+                "category",
+                "description",
+                "pricing_model",
+                "source_url",
+                "published_date",
+                "source",
+                "collected_at"
+            ]
+        }
+    },
+    "intelligence_insights": {
+        "github": {
+            "top_languages": {
+                "Python": 4,
+                "Jupyter Notebook": 3,
+                "TypeScript": 1,
+                "JavaScript": 1,
+                "HTML": 1
+            },
+            "total_stars": 352685,
+            "average_stars": 35268.5
+        },
+        "jobs": {
+            "top_job_titles": {
+                "(Senior) Consultant* - Murex/Capital Markets (m/w/d)": 5,
+                "Graduate Operations Supervisor (m/w/d)": 5,
+                "Infrastructure Manager (m/w/d) for AI Ops Implementation": 3,
+                "Forward Deployed AI Engineer (m/f/d) – Multi-Agent Systems": 1,
+                "Senior Project Manager (m/w/d) / Print, Digital & Bewegtbild": 1,
+                "Cryogenics Engineer – Test Facility & Auxiliary Cryoplants": 1,
+                "International Policy Intern": 1,
+                "Head of Monitoring and Control": 1,
+                "Engineering Technician": 1,
+                "Maintenance Technician": 1
+            },
+            "remote_jobs": "6"
+        },
+        "news": {
+            "news_sources": {
+                "Google News AI": 26,
+                "TechCrunch AI": 6
+            }
+        },
+        "products": {
+            "pricing_models": {
+                "Unknown": 29
+            },
+            "product_categories": {
+                "AI Product": 29
+            }
+        }
+    }
+}

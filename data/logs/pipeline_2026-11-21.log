@@ -1,0 +1,41 @@
+2026-11-21 19:34:39,163 | INFO | Logger test successful
+2026-11-21 21:56:46,776 | INFO | Master Pipeline Started
+2026-11-21 21:56:46,779 | INFO | GitHub Pipeline started
+2026-11-21 21:56:46,783 | INFO | GitHub Pipeline Started
+2026-11-21 21:56:46,784 | ERROR | GitHub Pipeline Failed: 'GitHubRepositoryScraper' object has no attribute 'fetch_repositories'
+2026-11-21 21:56:46,797 | ERROR | GitHub Pipeline failed: 'GitHubRepositoryScraper' object has no attribute 'fetch_repositories'
+2026-11-21 21:56:46,801 | INFO | AI News Pipeline started
+2026-11-21 21:56:46,802 | INFO | AI News Pipeline Started
+2026-11-21 21:56:48,750 | INFO | AI News Pipeline Success: 20 articles collected
+2026-11-21 21:56:48,751 | INFO | AI News Pipeline completed successfully in 1.95 seconds
+2026-11-21 21:56:48,752 | INFO | AI Jobs Pipeline started
+2026-11-21 21:56:49,939 | INFO | AI Jobs Pipeline completed successfully in 1.19 seconds
+2026-11-21 21:56:49,940 | INFO | AI Products Pipeline started
+2026-11-21 21:56:51,090 | INFO | AI Products Pipeline completed successfully in 1.15 seconds
+2026-11-21 21:56:51,091 | INFO | Master Pipeline Finished
+2026-11-21 22:05:52,719 | INFO | Processing started: github_repositories.csv
+2026-11-21 22:05:52,919 | INFO | Processing completed: github_repositories.csv
+2026-11-21 22:05:52,923 | INFO | Processing started: ai_news.csv
+2026-11-21 22:05:52,994 | INFO | Processing completed: ai_news.csv
+2026-11-21 22:05:52,995 | INFO | Processing started: ai_jobs.csv
+2026-11-21 22:05:53,084 | INFO | Processing completed: ai_jobs.csv
+2026-11-21 22:05:53,085 | INFO | Processing started: ai_products.csv
+2026-11-21 22:05:53,181 | INFO | Processing completed: ai_products.csv
+2026-11-21 22:26:00,998 | INFO | GitHub Pipeline started
+2026-11-21 22:26:01,045 | INFO | GitHub Pipeline Started
+2026-11-21 22:26:01,094 | ERROR | GitHub Pipeline Failed: 'GitHubRepositoryScraper' object has no attribute 'fetch_repositories'
+2026-11-21 22:26:01,336 | ERROR | GitHub Pipeline failed: 'GitHubRepositoryScraper' object has no attribute 'fetch_repositories'
+2026-11-21 22:26:01,422 | INFO | AI News Pipeline started
+2026-11-21 22:26:01,471 | INFO | AI News Pipeline Started
+2026-11-21 22:26:03,526 | INFO | AI News Pipeline Success: 20 articles collected
+2026-11-21 22:26:03,528 | INFO | AI News Pipeline completed successfully in 2.1 seconds
+2026-11-21 22:26:03,534 | INFO | AI Jobs Pipeline started
+2026-11-21 22:26:05,412 | INFO | AI Jobs Pipeline completed successfully in 1.88 seconds
+2026-11-21 22:26:05,413 | INFO | AI Products Pipeline started
+2026-11-21 22:26:06,738 | INFO | AI Products Pipeline completed successfully in 1.32 seconds
+2026-11-21 22:29:36,244 | INFO | GitHub Pipeline Started
+2026-11-21 22:29:36,248 | ERROR | GitHub Pipeline Failed: 'GitHubRepositoryScraper' object has no attribute 'fetch_repositories'
+2026-11-21 22:33:45,577 | INFO | GitHub Pipeline Started
+2026-11-21 22:33:47,725 | INFO | GitHub Pipeline Success: 10 repositories collected
+2026-11-21 22:34:20,175 | INFO | GitHub Pipeline Started
+2026-11-21 22:34:21,944 | INFO | GitHub Pipeline: No repositories found

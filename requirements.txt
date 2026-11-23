@@ -1,0 +1,12 @@
+
+streamlit
+pandas
+plotly
+requests
+beautifulsoup4
+aiohttp
+lxml
+feedparser
+trafilatura
+python-dotenv
+PySocks

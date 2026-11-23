@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+.stApp {
+    background: #090b14;
+    color: #f1f5f9;
+}
+
+[data-testid="stSidebar"] {
+    background: #0d1020;
+    border-right: 1px solid #24283c;
+}
+
+[data-testid="stSidebar"] > div {
+    padding-top: 1.5rem;
+}
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1500px;
+}
+
+h1, h2, h3 {
+    color: #f8fafc !important;
+    font-weight: 700 !important;
+}
+
+p, label, span {
+    color: #cbd5e1;
+}
+
+div[data-testid="stMetric"] {
+    background: linear-gradient(145deg, #151a2d, #101525);
+    border: 1px solid #272e45;
+    padding: 18px;
+    border-radius: 16px;
+}
+
+div[data-testid="stMetricLabel"] {
+    color: #94a3b8 !important;
+}
+
+div[data-testid="stMetricValue"] {
+    color: #ffffff !important;
+}
+
+div[data-testid="stMetricDelta"] {
+    font-size: 13px;
+}
+
+.stButton > button {
+    background: linear-gradient(90deg, #6366f1, #8b5cf6);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.55rem 1rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.stButton > button:hover {
+    border: 1px solid #a78bfa;
+    transform: translateY(-1px);
+    color: white;
+}
+
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    border: 1px solid #272e45;
+    border-radius: 16px;
+}
+
+hr {
+    border-color: #252b40;
+}
+
+[data-testid="stSidebar"] .stRadio label {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+[data-testid="stDataFrame"] {
+    border: 1px solid #272e45;
+    border-radius: 12px;
+}
+
+div[data-testid="stAlert"] {
+    border-radius: 12px;
+}
+
+.dashboard-subtitle {
+    color: #8e9bb5;
+    font-size: 14px;
+}
+
+.hero-card {
+    background: linear-gradient(120deg, #171b35, #251749, #132b48);
+    border: 1px solid #34355f;
+    border-radius: 20px;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+.hero-tag {
+    color: #a5b4fc;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.hero-title {
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.hero-text {
+    color: #b7c4dc;
+    font-size: 14px;
+}
+
+.section-title {
+    font-size: 19px;
+    font-weight: 700;
+    margin: 10px 0 16px 0;
+}
+
+.small-muted {
+    color: #8491aa;
+    font-size: 12px;
+}
+
+div[data-testid="stExpander"] {
+    border: 1px solid #272e45;
+    border-radius: 12px;
+}
+
+[data-testid="stSelectbox"] > div,
+[data-testid="stTextInput"] > div > div {
+    background: #14192a;
+}
+
+footer {
+    visibility: hidden;
+}

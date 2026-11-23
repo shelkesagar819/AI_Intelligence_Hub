@@ -1,0 +1,14 @@
+pipeline_name,status,execution_time,result,timestamp,error
+GitHub Pipeline,FAILED,0.01,,2026-11-21 21:56:46,'GitHubRepositoryScraper' object has no attribute 'fetch_repositories'
+AI News Pipeline,SUCCESS,1.95,,2026-11-21 21:56:48,
+AI Jobs Pipeline,SUCCESS,1.19,,2026-11-21 21:56:49,
+AI Products Pipeline,SUCCESS,1.15,,2026-11-21 21:56:51,
+GitHub Pipeline,FAILED,0.24,,2026-11-21 22:26:01,'GitHubRepositoryScraper' object has no attribute 'fetch_repositories'
+AI News Pipeline,SUCCESS,2.1,,2026-11-21 22:26:03,
+AI Jobs Pipeline,SUCCESS,1.88,,2026-11-21 22:26:05,
+AI Products Pipeline,SUCCESS,1.32,,2026-11-21 22:26:06,
+GitHub Pipeline,SUCCESS,23.12,,2026-11-22 01:16:26,
+AI News Pipeline,SUCCESS,64.87,,2026-11-22 01:17:31,
+AI Jobs Pipeline,SUCCESS,67.76,,2026-11-22 01:18:39,
+AI Products Pipeline,SUCCESS,22.1,,2026-11-22 01:19:01,
+Test Pipeline,SUCCESS,0.0,1,2026-11-23 11:13:33,
