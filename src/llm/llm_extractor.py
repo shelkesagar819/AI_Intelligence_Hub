@@ -8,7 +8,6 @@ load_dotenv()
 
 def get_api_key(key_name):
     """Read API key from environment or Streamlit Cloud Secrets."""
-
     value = os.getenv(key_name)
 
     if value:
@@ -148,18 +147,15 @@ class LLMExtractor:
             self.groq_key,
             self.deepseek_key
         ]):
-            print("No API keys configured.")
-            return "No working LLM API provider available. No API keys configured."
+            return "No API keys configured. Check Streamlit Secrets."
 
         print("All LLM providers failed.")
 
         for error in errors:
             print(error)
 
-        return (
-            "No working LLM API provider available. "
-            "Check provider errors in logs."
-        )
+        # Show actual provider error for debugging
+        return "Provider Errors:\n" + "\n".join(errors)
 
     # JSON EXTRACTION
     def extract_json(self, text):
@@ -175,7 +171,7 @@ class LLMExtractor:
 
         response = self.generate_response(prompt)
 
-        if response.startswith("No working LLM"):
+        if response.startswith("No working LLM") or response.startswith("Provider Errors:"):
             return {}
 
         return self._parse_json(response)
