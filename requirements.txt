@@ -10,3 +10,4 @@ feedparser
 trafilatura
 python-dotenv
 PySocks
+groq
